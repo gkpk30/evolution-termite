@@ -9,8 +9,8 @@ const stats = [
 
 export default function ServiceSection2() {
   return (
-    <div className="bg-gray-800 -mt-8 lg:relative min-h-[700px] ">
-      <div className="lg:absolute  left-0 right-0 lg:-top-10 mx-auto rounded-2xl bg-black max-w-6xl px-6 lg:px-20 py-24 sm:py-24">
+    <div className="bg-gradient-to-b from-[#d3b5a9] to-[#d1aea1] -mt-8 lg:relative min-h-[700px] border-y  border-l-indigo-900 ">
+      <div className="lg:absolute  left-0 right-0 lg:-top-10 mx-auto rounded-2xl bg-gray-900 max-w-6xl px-6 lg:px-20 py-24 sm:py-24">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
