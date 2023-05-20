@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { StarIcon } from '@heroicons/react/24/solid'
+import { StarIcon } from "@heroicons/react/24/solid";
 const stats = [
   { name: "Google reviews", value: "4.8" },
   { name: "Yelp reviews", value: "4.8" },
@@ -10,7 +10,6 @@ const stats = [
 ];
 
 export default function InfoClouds() {
-
   return (
     <div className="bg-transparent py-20 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -21,25 +20,39 @@ export default function InfoClouds() {
               <p>{stat.name}</p>
             </div>
           ))} */}
-          <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-            <p className="text-indigo-950/60  text-3xl font-semibold">adasfd</p>
-            <span className="text-indigo-950/60">dasfdfdaf</span>
-          </div>
           <div className=" text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-            <div className="flex justify-center"><span className="text-indigo-950/60  text-3xl font-semibold mr-2">4.8  </span> <span className="self-center"><StarIcon className="h-7 w-7 text-indigo-950/60 " /></span> </div>
-            <span className="text-indigo-950/60" >ddsafdsafa</span>
+            <div className="flex justify-center">
+              <span className="text-indigo-950/60  text-2xl font-semibold mr-2">
+                4.8{" "}
+              </span>{" "}
+              <span className="self-center">
+                <StarIcon className="h-7 w-7 text-indigo-950/60 " />
+              </span>{" "}
+            </div>
+            <span className="text-indigo-950/60">Top rated</span>
           </div>
-          <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1" >
-            <p className="text-indigo-950/60  text-3xl font-semibold">asdfsa</p>
-            <span className="text-indigo-950/60">fvcxbx</span>
+          <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
+            <p className="text-indigo-950/60  text-2xl font-semibold">
+              Guaranteed
+            </p>
+            <span className="text-indigo-950/60">
+              No risk unless you're a bug
+            </span>
           </div>
-          <div className="text-center col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" >
-            <p className="text-indigo-950/60 text-3xl font-semibold">jhgk</p>
-            <span className="text-indigo-950/60">cbncvb</span>
+
+          <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
+            <p className="text-indigo-950/60  text-2xl font-semibold">Safe</p>
+            <span className="text-indigo-950/60">
+              Safe for families, pets and children
+            </span>
+          </div>
+          <div className="text-center col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1">
+            <p className="text-indigo-950/60 text-2xl font-semibold">Fast</p>
+            <span className="text-indigo-950/60">Service within 24 hours!</span>
           </div>
           <div  className=" text-center col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" >
-            <p className="text-indigo-950/60  text-3xl font-semibold">vxb</p>
-            <span className="text-indigo-950/60">sdtrvc</span>
+            <p className="text-indigo-950/60  text-2xl font-semibold">Affordable</p>
+            <span className="text-indigo-950/60">Easy on your wallet</span>
           </div>
         </div>
         {/* <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
