@@ -94,7 +94,7 @@ export default function BenefitsMain() {
           <div className="sm:basis-1/2 ">
             <StaticImage
               // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-              src="../images/featured/rodent.jpg"
+              src="../images/featured/repairs.jpg"
               alt=""
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
             />
@@ -134,7 +134,7 @@ export default function BenefitsMain() {
           <div className="sm:basis-1/2  ">
             <StaticImage
               // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-              src="../images/featured/rodent.jpg"
+              src="../images/featured/house.jpg"
               alt=""
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
             />
