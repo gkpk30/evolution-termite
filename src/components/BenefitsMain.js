@@ -9,7 +9,10 @@ export default function BenefitsMain() {
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
           Ready to say goodbye to your pests?
           <br />
-          Call for a free qoute.
+          Call for a <span className="relative">free qoute <span className="absolute -bottom-6 left-0">
+                      <img src="/underline.svg" alt="underline decoration" className="w-[100%] h-[42px]"/>
+                     
+                    </span></span>.
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Link
