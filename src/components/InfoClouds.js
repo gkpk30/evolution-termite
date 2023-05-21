@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import { StarIcon } from "@heroicons/react/24/solid";
+import { StaticImage } from "gatsby-plugin-image";
+
 const stats = [
   { name: "Google reviews", value: "4.8" },
   { name: "Yelp reviews", value: "4.8" },
@@ -32,26 +34,46 @@ export default function InfoClouds() {
             <span className="text-indigo-950/60">Top rated</span>
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-            <p className="text-indigo-950/60  text-2xl font-semibold">
-              Guaranteed
-            </p>
-            <span className="text-indigo-950/60">
+            <div className="flex gap-1 justify-center">
+            <img
+                src="/experienceicon.svg"
+                alt="time"
+                className="h-6"
+                
+              />
+              <p className="text-indigo-950/60  text-xl font-semibold">
+                Guaranteed{" "}
+              </p>
+
+              
+            </div>
+            <span className="text-indigo-950/60 text-center">
               No risk unless you're a bug
             </span>
           </div>
 
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-            <p className="text-indigo-950/60  text-2xl font-semibold">Safe</p>
+            <p className="text-indigo-950/60  text-xl font-semibold ">Safe</p>
             <span className="text-indigo-950/60">
               Safe for families, pets and children
             </span>
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1">
-            <p className="text-indigo-950/60 text-2xl font-semibold">Fast</p>
+            <p className="text-indigo-950/60 text-xl font-semibold relative ">
+              Fast{" "}
+              <span className="absolute">
+                <StaticImage src="../images/icons/moneyistime.svg" alt="time" />
+              </span>{" "}
+            </p>
             <span className="text-indigo-950/60">Service within 24 hours!</span>
           </div>
-          <div  className=" text-center col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" >
-            <p className="text-indigo-950/60  text-2xl font-semibold">Affordable</p>
+          <div className=" text-center col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1">
+            <div className="flex gap-1 justify-center">
+              <img src="/wallet.svg" alt="time" className="h-6" />
+              <p className="text-indigo-950/60  text-xl font-semibold ">
+                Affordable
+              </p>
+            </div>
             <span className="text-indigo-950/60">Easy on your wallet</span>
           </div>
         </div>
