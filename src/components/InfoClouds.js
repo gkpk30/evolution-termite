@@ -35,17 +35,14 @@ export default function InfoClouds() {
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
             <div className="flex gap-1 justify-center">
-            <img
+              <img
                 src="/experienceicon.svg"
                 alt="time"
-                className="h-6"
-                
+                className="h-6 opacity-70"
               />
               <p className="text-indigo-950/60  text-xl font-semibold">
                 Guaranteed{" "}
               </p>
-
-              
             </div>
             <span className="text-indigo-950/60 text-center">
               No risk unless you're a bug
@@ -59,17 +56,17 @@ export default function InfoClouds() {
             </span>
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1">
-            <p className="text-indigo-950/60 text-xl font-semibold relative ">
-              Fast{" "}
-              <span className="absolute">
-                <StaticImage src="../images/icons/moneyistime.svg" alt="time" />
-              </span>{" "}
-            </p>
+            <div className="flex gap-1 justify-center">
+              <img src="/moneyistime.svg" className="h-6 opacity-70" />
+              <p className="text-indigo-950/60 text-xl font-semibold relative ">
+                Fast{" "}
+              </p>
+            </div>
             <span className="text-indigo-950/60">Service within 24 hours!</span>
           </div>
           <div className=" text-center col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1">
             <div className="flex gap-1 justify-center">
-              <img src="/wallet.svg" alt="time" className="h-6" />
+              <img src="/wallet.svg" alt="time" className="h-6 opacity-70" />
               <p className="text-indigo-950/60  text-xl font-semibold ">
                 Affordable
               </p>

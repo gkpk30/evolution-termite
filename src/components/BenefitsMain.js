@@ -9,7 +9,10 @@ export default function BenefitsMain() {
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
           Ready to say goodbye to your pests?
           <br />
-          Call for a free qoute.
+          Call for a <span className="relative">free qoute <span className="absolute -bottom-6 left-0">
+                      <img src="/underline.svg" alt="underline decoration" className="w-[100%] h-[42px]"/>
+                     
+                    </span></span>.
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Link
@@ -91,7 +94,7 @@ export default function BenefitsMain() {
           <div className="sm:basis-1/2 ">
             <StaticImage
               // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-              src="../images/featured/rodent.jpg"
+              src="../images/featured/repairs.jpg"
               alt=""
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
             />
@@ -131,7 +134,7 @@ export default function BenefitsMain() {
           <div className="sm:basis-1/2  ">
             <StaticImage
               // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-              src="../images/featured/rodent.jpg"
+              src="../images/featured/house.jpg"
               alt=""
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
             />
