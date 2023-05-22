@@ -1,7 +1,6 @@
 import * as React from "react";
 import Seo from "../components/seo";
 import Hero from "../components/Hero";
-import Benefits from "../components/Benefits"
 import PestCards from "../components/PestCards";
 import ServiceSection from "../components/ServiceSection";
 import ServiceSection2 from "../components/ServiceSection2";

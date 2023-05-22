@@ -23,24 +23,24 @@ export default function InfoClouds() {
             </div>
           ))} */}
           <div className=" text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-            <div className="flex justify-center">
-              <span className="text-indigo-950/60  text-2xl font-semibold mr-2">
-                4.8{" "}
-              </span>{" "}
-              <span className="self-center">
-                <StarIcon className="h-7 w-7 text-indigo-950/60 " />
-              </span>{" "}
+            <div className="flex gap-x-2 justify-center">
+              <img
+                src="/qualityhand.svg"
+                alt="Top Quality"
+                className="h-6 opacity-70"
+              />
+              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold">Top Rated </p>{" "}
             </div>
-            <span className="text-indigo-950/60">Top rated</span>
+            <span className="text-indigo-950/60">Serving Southern California</span>
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-            <div className="flex gap-1 justify-center">
+            <div className="flex gap-x-2 justify-center">
               <img
                 src="/experienceicon.svg"
                 alt="time"
                 className="h-6 opacity-70"
               />
-              <p className="text-indigo-950/60  text-xl font-semibold">
+              <p className="text-indigo-950/60 text-xl  lg:text-2xl font-semibold">
                 Guaranteed{" "}
               </p>
             </div>
@@ -50,24 +50,27 @@ export default function InfoClouds() {
           </div>
 
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-            <p className="text-indigo-950/60  text-xl font-semibold ">Safe</p>
+            <div className="flex gap-x-2 justify-center">
+              <img src="/eco.svg" className="h-6 opacity-70" />
+              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold ">Safe</p>
+            </div>
             <span className="text-indigo-950/60">
               Safe for families, pets and children
             </span>
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1">
-            <div className="flex gap-1 justify-center">
+            <div className="flex gap-x-2 justify-center">
               <img src="/moneyistime.svg" className="h-6 opacity-70" />
-              <p className="text-indigo-950/60 text-xl font-semibold relative ">
+              <p className="text-indigo-950/60 text-xl  lg:text-2xl font-semibold relative ">
                 Fast{" "}
               </p>
             </div>
             <span className="text-indigo-950/60">Service within 24 hours!</span>
           </div>
           <div className=" text-center col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1">
-            <div className="flex gap-1 justify-center">
+            <div className="flex gap-x-2 justify-center">
               <img src="/wallet.svg" alt="time" className="h-6 opacity-70" />
-              <p className="text-indigo-950/60  text-xl font-semibold ">
+              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold ">
                 Affordable
               </p>
             </div>
