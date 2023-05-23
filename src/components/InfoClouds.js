@@ -15,7 +15,7 @@ export default function InfoClouds() {
   return (
     <div className="bg-transparent py-20 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+        <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-24 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           {/* {stats.map((stat) => (
             <div key={stat.name} className="col-span-2 max-h-12 w-full object-contain lg:col-span-1">
               <p>{stat.value}</p>
@@ -31,7 +31,7 @@ export default function InfoClouds() {
               />
               <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold">Top Rated </p>{" "}
             </div>
-            <span className="text-indigo-950/60">Serving Southern California</span>
+            <span className="text-indigo-950/60 text-sm sm:text-base">Serving Southern California</span>
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
             <div className="flex gap-x-2 justify-center">
@@ -44,7 +44,7 @@ export default function InfoClouds() {
                 Guaranteed{" "}
               </p>
             </div>
-            <span className="text-indigo-950/60 text-center">
+            <span className="text-indigo-950/60 text-center text-sm sm:text-base">
               No risk unless you're a bug
             </span>
           </div>
@@ -54,7 +54,7 @@ export default function InfoClouds() {
               <img src="/eco.svg" className="h-6 opacity-70" />
               <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold ">Safe</p>
             </div>
-            <span className="text-indigo-950/60">
+            <span className="text-indigo-950/60 text-sm sm:text-base">
               Safe for families, pets and children
             </span>
           </div>
@@ -65,16 +65,16 @@ export default function InfoClouds() {
                 Fast{" "}
               </p>
             </div>
-            <span className="text-indigo-950/60">Service within 24 hours!</span>
+            <span className="text-indigo-950/60 text-sm sm:text-base">Service within 24 hours!</span>
           </div>
           <div className=" text-center col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1">
             <div className="flex gap-x-2 justify-center">
               <img src="/wallet.svg" alt="time" className="h-6 opacity-70" />
-              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold ">
+              <p className="text-indigo-950/60  text-lg  lg:text-2xl font-semibold ">
                 Affordable
               </p>
             </div>
-            <span className="text-indigo-950/60">Easy on your wallet</span>
+            <span className="text-indigo-950/60 text-sm sm:text-base">Easy on your wallet</span>
           </div>
         </div>
         {/* <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
