@@ -1,4 +1,6 @@
 import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
+import { Link } from 'gatsby'
 
 export default function Hero2({h1, subHeader, teaser}) {
   return (
@@ -20,10 +22,10 @@ export default function Hero2({h1, subHeader, teaser}) {
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-100 ring-1 ring-gray-300/10 hover:ring-gray-400/20">
                     {teaser}{' '}
-                    <a href="#" className="whitespace-nowrap font-semibold text-indigo-300">
+                    <Link to="#" className="whitespace-nowrap font-semibold text-indigo-300">
                       <span className="absolute inset-0" aria-hidden="true" />
                       Read more <span aria-hidden="true">&rarr;</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h1 className="text-4xl font-bold tracking-tight text-gray-50 sm:text-6xl">
@@ -33,24 +35,26 @@ export default function Hero2({h1, subHeader, teaser}) {
                   {subHeader}
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
-                    Get started
-                  </a>
-                  <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    Start Today
+                  </Link>
+                  <Link to="#" className="text-sm font-semibold leading-6 text-white">
                     Learn more <span aria-hidden="true">→</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img
+        <div className="bg-gray-900 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <StaticImage
             className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+            src="../images/featured/gauranteed.jpeg"
+            placeholder='blurred'
+            quality={100}
             alt=""
           />
         </div>

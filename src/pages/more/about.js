@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const timeline = [
   {
@@ -63,12 +64,12 @@ const jobOpenings = [
 
 export default function about() {
   return (
-    <div className="bg-white">
+    <div className="bg-gray-300">
       <main className="isolate">
         {/* Hero section */}
         <div className="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
           <div
-            className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
+            className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-gradient-to-b from-[#c8cadb] to-gray-300shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
             aria-hidden="true"
           />
           <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
@@ -82,6 +83,7 @@ export default function about() {
                   amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui
                   irure qui lorem cupidatat commodo.
                 </p>
+                
               </div>
               <img
                 src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
@@ -297,10 +299,10 @@ export default function about() {
                     <dl className="relative flex flex-wrap gap-x-3">
                       <dt className="sr-only">Role</dt>
                       <dd className="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
-                        <a href={opening.href}>
+                        <Link to={opening.href}>
                           {opening.role}
                           <span className="absolute inset-0" aria-hidden="true" />
-                        </a>
+                        </Link>
                       </dd>
                       <dt className="sr-only">Description</dt>
                       <dd className="mt-2 w-full flex-none text-base leading-7 text-gray-600">{opening.description}</dd>
@@ -318,9 +320,9 @@ export default function about() {
                 ))}
               </ul>
               <div className="mt-8 flex border-t border-gray-100 pt-8">
-                <a href="#" className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+                <Link to="#" className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
                   View all openings <span aria-hidden="true">&rarr;</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

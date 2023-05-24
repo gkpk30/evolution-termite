@@ -56,10 +56,9 @@ export default function ContactForm() {
                 />
               </div>
             </div>
-            <h2 className="text-3xl font-bold tracking-tight text-white">Get in touch</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-white">Request An Estimate</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
+              Get your free pest control estimate. Call or Email us. We provide both residential and commercial pest control.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
@@ -79,8 +78,8 @@ export default function ContactForm() {
                   <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-white" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                  <a className="hover:text-white" href="tel:+1 (562) 548-4733">
+                    (562) 548-4733
                   </a>
                 </dd>
               </div>
@@ -177,7 +176,7 @@ export default function ContactForm() {
                 type="submit"
                 className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
-                Send message
+                Get my estimate
               </button>
             </div>
           </div>

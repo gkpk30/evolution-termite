@@ -1,13 +1,15 @@
 import React from 'react'
 import { CheckCircleIcon } from '@heroicons/react/20/solid'
+import { Link } from 'gatsby'
+import { StaticImage } from "gatsby-plugin-image";
 
 const benefits = [
-  'Competitive salaries',
-  'Flexible work hours',
-  '30 days of paid vacation',
-  'Annual team retreats',
-  'Benefits for you and your family',
-  'A great work environment',
+  'Pests of all kinds',
+  'Many treatment options',
+  'Maintenance Programs available',
+  '100% Satifaction Guaranteed',
+  'Safe for you and your family',
+  'Repairs',
 ]
 
 export default function Features() {
@@ -16,16 +18,17 @@ export default function Features() {
       <div className="relative isolate">
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
-            <img
+            <StaticImage
               className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-              src="https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+              src="../images/featured/gauranteed.jpeg"
               alt=""
+              placeholder='blurred'
+              quality={90}
             />
             <div className="w-full flex-auto">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Join our team</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Protect Your Home From Common Pests</h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                accusamus quisquam.
+                We provide both commercial and residential pest control services.
               </p>
               <ul
                 role="list"
@@ -39,9 +42,9 @@ export default function Features() {
                 ))}
               </ul>
               <div className="mt-10 flex">
-                <a href="#" className="text-sm font-semibold leading-6 text-indigo-400">
-                  See our job postings <span aria-hidden="true">&rarr;</span>
-                </a>
+                <Link to="/more/about" className="text-sm font-semibold leading-6 text-indigo-400">
+                  Learn more about us <span aria-hidden="true">&rarr;</span>
+                </Link>
               </div>
             </div>
           </div>
