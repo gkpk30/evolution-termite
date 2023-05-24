@@ -11,7 +11,7 @@ const heroText = {
 };
 export default function Hero() {
   return (
-    <main className="bg-gradient-to-b from-[#a6afe1] to-[#d3b5a9]">
+    <main className="bg-gradient-to-b from-[#c8cadb] to-gray-300">
       <div className="relative isolate">
         <svg
           className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-700/30 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
