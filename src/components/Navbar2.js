@@ -52,7 +52,7 @@ console.log("navbar2",nodes[0].frontmatter.title)
   return (
     <header className="absolute inset-x-0 top-0 z-50  ">
       <Banner />
-      <nav className=" px-6 lg:px-8 mx-auto mt-3 max-w-[1480] flex justify-between min-h-min">
+      <nav className=" px-6 lg:px-8 mx-auto mt-3 max-w-[1480px] flex justify-between min-h-min">
         <div>
           <Link to="/" className="">
             <span className="sr-only">Evolution Termite | Pest Control and Repairs</span>
