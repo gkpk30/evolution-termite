@@ -90,7 +90,7 @@ export default function Hero() {
                   <span className="relative">
                     repair
                     <span className="absolute -bottom-4 left-0">
-                      <img src="/underline.svg" alt="underline decoration" className="w-[100%] h-[42px]"/>
+                      <img src="/underlineBlue.svg" alt="" className="w-[100%] h-[42px]"/>
                      
                     </span>
                   </span>{" "}

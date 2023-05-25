@@ -4,8 +4,16 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function BenefitsMain() {
   return (
-    <div className="bg-transparent py-24 lg:py-32">
-      <div className="mx-auto max-w-5xl px-6  pb-14  sm:pb-16 lg:flex lg:items-center lg:justify-between lg:px-8">
+    <div className="bg-transparent  relative py-24 sm:py-32">
+      <StaticImage
+      className="absolute right-0 top-0 bottom-0 h-full w-full lg:w-1/2  object-cover opacity-30  mix-blend-overlay  "
+        alt=""
+        placeholder="blurred"
+        src="../images/featured/happyfamily.jpeg"
+        formats={["auto", "webp", "avif"]}
+      />
+  
+      <div className="mx-auto max-w-5xl px-6   sm:pb-16 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
           Ready to say goodbye to your pests?
           <br />
@@ -14,7 +22,7 @@ export default function BenefitsMain() {
             free qoute{" "}
             <span className="absolute -bottom-6 left-0">
               <img
-                src="/underline.svg"
+                src="/underlineWhite.svg"
                 alt="underline decoration"
                 className="w-[100%] h-[42px]"
               />
@@ -29,9 +37,9 @@ export default function BenefitsMain() {
           >
             Get started
           </Link>
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          <Link to="#" className="text-sm font-semibold leading-6 text-white">
             Learn more <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
      
@@ -39,7 +47,6 @@ export default function BenefitsMain() {
         <div className="sm:flex sm:max-w-[90%]  pt-7 self-end  justify-between gap-6 ">
           <div className="sm:basis-1/2 ">
             <StaticImage
-              // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
               src="../images/featured/repairs.jpg"
               alt=""
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
@@ -47,7 +54,7 @@ export default function BenefitsMain() {
           </div>
           <div className="sm:basis-1/2 text-white sm:grow self-center">
             <h4>Pest Elimination and Repairs</h4>
-            <h3 className="text-xl font-bold tracking-tight text-gray-300 sm:text-2xl mb-3">
+            <h3 className="text-xl font-bold tracking-tight text-gray-100 sm:text-2xl mb-3">
               We offer repair services, pest control and preventative
               treatments.
             </h3>
@@ -60,7 +67,7 @@ export default function BenefitsMain() {
         <div className="sm:flex sm:max-w-[90%] pt-7 self-start  justify-between gap-6 ">
           <div className="sm:basis-1/2 ">
             <StaticImage
-              // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
+              
               src="../images/featured/rodent.jpg"
               alt=""
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
@@ -68,7 +75,7 @@ export default function BenefitsMain() {
           </div>
           <div className="sm:basis-1/2 text-white sm:grow  self-center">
             <h4>Environmentally Friendly Solutions</h4>
-            <h3 className="text-xl font-bold tracking-tight text-gray-300 sm:text-2xl mb-3">
+            <h3 className="text-xl font-bold tracking-tight text-gray-100 sm:text-2xl mb-3">
               Safer for your family and pets.
             </h3>
             <p>
@@ -77,30 +84,10 @@ export default function BenefitsMain() {
             </p>
           </div>
         </div>
-        {/* <div className="sm:flex sm:max-w-[90%] pt-7 self-end  justify-between gap-6 ">
-          <div className="sm:basis-1/2  ">
-            <StaticImage
-              // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-              src="../images/featured/house.jpg"
-              alt=""
-              className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
-            />
-          </div>
-          <div className="sm:basis-1/2 text-white sm:grow  self-center">
-            <h4>Long-Term Solutions</h4>
-            <h3 className="text-xl font-bold tracking-tight text-gray-300 sm:text-2xl mb-3">
-              We save you money in the long run
-            </h3>
-            <p>
-              This can save you time and money, as you won't have to hire
-              multiple companies to take care of the problem.
-            </p>
-          </div>
-        </div> */}
+        
         <div className="sm:flex sm:max-w-[90%] pt-7 self-end  justify-between gap-6 ">
           <div className="sm:basis-1/2 ">
             <StaticImage
-              // src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
               src="../images/featured/family.jpg"
               alt=""
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
@@ -108,7 +95,7 @@ export default function BenefitsMain() {
           </div>
           <div className="sm:basis-1/2 text-white sm:grow  self-center">
             <h4>We Guarantee your satisfaction</h4>
-            <h3 className="text-xl font-bold tracking-tight text-gray-300 sm:text-2xl mb-3">
+            <h3 className="text-xl font-bold tracking-tight text-gray-100 sm:text-2xl mb-3">
               Home Protection Plan
             </h3>
             <p>
@@ -119,6 +106,7 @@ export default function BenefitsMain() {
           </div>
         </div>
       </div>
+     
     </div>
   );
 }
