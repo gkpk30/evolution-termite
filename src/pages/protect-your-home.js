@@ -26,7 +26,8 @@ export default function ProtectYourHome() {
             <div className="lg:pr-4">
               <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                 <StaticImage
-                  className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
+                  className="inset-0 h-full w-full object-cover brightness-125 saturate-0"
+                  style={{ position: "absolute" }}
                   src="../images/featured/happyfamily.jpeg"
                   alt="Family Happy with Evolution Termite sercices"
                 />
@@ -36,7 +37,7 @@ export default function ProtectYourHome() {
                   aria-hidden="true"
                 >
                   <div
-                    className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40"
+                    className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-gray-300 to-[#2e24e7] opacity-60"
                     style={{
                       clipPath:
                         "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
@@ -56,16 +57,12 @@ export default function ProtectYourHome() {
                     />
                     <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x={86} />
                   </svg>
-                  <img
-                    src="/logo3.png"
-                    alt="Logo"
-                    className="h-12 w-auto"
-                  />
+                  <img src="/logo3.png" alt="Logo" className="h-12 w-auto" />
                   <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                     <p>
-                      “Amet amet eget scelerisque tellus sit neque faucibus non
-                      eleifend. Integer eu praesent at a. Ornare arcu gravida
-                      natoque erat et cursus tortor.”
+                      “Join the Evolution Termite Home Protection Plan today and
+                      embrace a home that is fortified, protected, and free from
+                      the intrusion of pests”
                     </p>
                   </blockquote>
                   <figcaption className="mt-6 text-sm leading-6 text-gray-300">
@@ -92,31 +89,67 @@ export default function ProtectYourHome() {
                     prioritize your peace of mind and the well-being of your
                     home. When you join us, here's what you can expect:
                   </p>
-                 
+
                   <p className="mt-8">
-                Comprehensive Pest Care: During our initial visit, we will diligently address any existing pest issues that may be plaguing your home. In addition, we will implement effective pest-proofing measures to fortify your property against future intrusions. Consider it a solid foundation for a pest-free sanctuary.
-                </p>
-                <p className="mt-8">
-                Regular Maintenance and Care: Our team of pest control experts will make quarterly visits to your property, ensuring that your home remains safeguarded from unwelcome pests throughout the year. With each visit, we will employ proactive strategies to maintain the integrity of your pest defenses.
-                </p>
-                <p className="mt-8">
-                Seasonal Pest Control Treatments: As the seasons change, so do the challenges posed by various pests. To counteract their seasonal fluctuations, we will provide you with four targeted pest control treatments throughout the year. This proactive approach ensures that your home remains protected during different pest activity peaks.
-                </p>
-                <p className="mt-8">
-                Service Guarantee: We stand firmly behind the quality of our work and our commitment to your satisfaction. In the unlikely event that pests persist despite our efforts, our service guarantee ensures that we will return promptly to address the issue at no additional cost. Your contentment is paramount to us.
-                </p>
-                <p className="mt-8">
-                Termite Monitoring: Termites pose a unique threat to homes, silently causing damage that may go unnoticed until it's too late. Our termite monitoring program allows us to detect early signs of termite activity, enabling swift intervention to prevent potential structural damage.
-                </p>
-                <p className="mt-8">
-                Annual Pest Evaluations: Our dedication to your ongoing protection extends beyond regular visits. We conduct annual pest evaluations to thoroughly assess your property, identify any vulnerabilities, and offer recommendations to maintain a pest-resistant environment
-                </p>
-                <p className="mt-8">
-                At Evolution Termite, we take pride in our award-winning service, recognized with the prestigious Angie's List Super Service Award on nine separate occasions. Serving the Maryland area, we are committed to placing you, our valued customer, at the core of our operations.
-                </p>
-                <p className="mt-8">
-                Join the Evolution Termite Home Protection Plan today and embrace a home that is fortified, protected, and free from the intrusion of pests. Experience the peace of mind that comes from having a dedicated team guarding your home against nature's unwanted guests.
-                </p>
+                    Comprehensive Pest Care: During our initial visit, we will
+                    diligently address any existing pest issues that may be
+                    plaguing your home. In addition, we will implement effective
+                    pest-proofing measures to fortify your property against
+                    future intrusions. Consider it a solid foundation for a
+                    pest-free sanctuary.
+                  </p>
+                  <p className="mt-8">
+                    Regular Maintenance and Care: Our team of pest control
+                    experts will make quarterly visits to your property,
+                    ensuring that your home remains safeguarded from unwelcome
+                    pests throughout the year. With each visit, we will employ
+                    proactive strategies to maintain the integrity of your pest
+                    defenses.
+                  </p>
+                  <p className="mt-8">
+                    Seasonal Pest Control Treatments: As the seasons change, so
+                    do the challenges posed by various pests. To counteract
+                    their seasonal fluctuations, we will provide you with four
+                    targeted pest control treatments throughout the year. This
+                    proactive approach ensures that your home remains protected
+                    during different pest activity peaks.
+                  </p>
+                  <p className="mt-8">
+                    Service Guarantee: We stand firmly behind the quality of our
+                    work and our commitment to your satisfaction. In the
+                    unlikely event that pests persist despite our efforts, our
+                    service guarantee ensures that we will return promptly to
+                    address the issue at no additional cost. Your contentment is
+                    paramount to us.
+                  </p>
+                  <p className="mt-8">
+                    Termite Monitoring: Termites pose a unique threat to homes,
+                    silently causing damage that may go unnoticed until it's too
+                    late. Our termite monitoring program allows us to detect
+                    early signs of termite activity, enabling swift intervention
+                    to prevent potential structural damage.
+                  </p>
+                  <p className="mt-8">
+                    Annual Pest Evaluations: Our dedication to your ongoing
+                    protection extends beyond regular visits. We conduct annual
+                    pest evaluations to thoroughly assess your property,
+                    identify any vulnerabilities, and offer recommendations to
+                    maintain a pest-resistant environment
+                  </p>
+                  <p className="mt-8">
+                    At Evolution Termite, we take pride in our award-winning
+                    service, recognized with the prestigious Angie's List Super
+                    Service Award on nine separate occasions. Serving the
+                    Maryland area, we are committed to placing you, our valued
+                    customer, at the core of our operations.
+                  </p>
+                  <p className="mt-8">
+                    Join the Evolution Termite Home Protection Plan today and
+                    embrace a home that is fortified, protected, and free from
+                    the intrusion of pests. Experience the peace of mind that
+                    comes from having a dedicated team guarding your home
+                    against nature's unwanted guests.
+                  </p>
                 </div>
               </div>
               <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">

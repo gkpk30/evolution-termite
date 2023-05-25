@@ -29,7 +29,7 @@ export default function Hero() {
               <path d="M.5 200V.5H200" fill="none" />
             </pattern>
           </defs>
-          <svg x="50%" y={-1} className="overflow-visible fill-gray-600/20">
+          <svg x="50%" y={-1} className="overflow-visible fill-gray-600/70">
             <path
               d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
               strokeWidth={0}
@@ -63,7 +63,7 @@ export default function Hero() {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stopColor="#9089FC" />
-                <stop offset={1} stopColor="#4F46E5" />
+                <stop offset={1} stopColor="#2e24e7" />
               </linearGradient>
             </defs>
           </svg>
