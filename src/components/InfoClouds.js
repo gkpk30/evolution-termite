@@ -1,27 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
-import { StarIcon } from "@heroicons/react/24/solid";
-import { StaticImage } from "gatsby-plugin-image";
-
-const stats = [
-  { name: "Google reviews", value: "4.8" },
-  { name: "Yelp reviews", value: "4.8" },
-  { name: "Experience", value: "24 years" },
-  { name: "Trusted Clients", value: "1,200 +" },
-  { name: "Service Area", value: "LA County" },
-];
 
 export default function InfoClouds() {
   return (
     <div className="bg-transparent py-20 sm:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-24 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-          {/* {stats.map((stat) => (
-            <div key={stat.name} className="col-span-2 max-h-12 w-full object-contain lg:col-span-1">
-              <p>{stat.value}</p>
-              <p>{stat.name}</p>
-            </div>
-          ))} */}
           <div className=" text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
             <div className="flex gap-x-2 justify-center">
               <img
@@ -29,9 +13,13 @@ export default function InfoClouds() {
                 alt="Top Quality"
                 className="h-6 opacity-70"
               />
-              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold">Top Rated </p>{" "}
+              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold">
+                Top Rated{" "}
+              </p>{" "}
             </div>
-            <span className="text-indigo-950/60 text-sm sm:text-base">Serving Southern California</span>
+            <span className="text-indigo-950/60 text-sm sm:text-base">
+              Serving Southern California
+            </span>
           </div>
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
             <div className="flex gap-x-2 justify-center">
@@ -52,7 +40,9 @@ export default function InfoClouds() {
           <div className="text-center col-span-2 max-h-12 w-full object-contain lg:col-span-1">
             <div className="flex gap-x-2 justify-center">
               <img src="/eco.svg" className="h-6 opacity-70" />
-              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold ">Safe</p>
+              <p className="text-indigo-950/60  text-xl  lg:text-2xl font-semibold ">
+                Safe
+              </p>
             </div>
             <span className="text-indigo-950/60 text-sm sm:text-base">
               Safe for families, pets and children
@@ -65,7 +55,9 @@ export default function InfoClouds() {
                 Fast{" "}
               </p>
             </div>
-            <span className="text-indigo-950/60 text-sm sm:text-base">Service within 24 hours!</span>
+            <span className="text-indigo-950/60 text-sm sm:text-base">
+              Service within 24 hours!
+            </span>
           </div>
           <div className=" text-center col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1">
             <div className="flex gap-x-2 justify-center">
@@ -74,7 +66,9 @@ export default function InfoClouds() {
                 Affordable
               </p>
             </div>
-            <span className="text-indigo-950/60 text-sm sm:text-base">Easy on your wallet</span>
+            <span className="text-indigo-950/60 text-sm sm:text-base">
+              Easy on your wallet
+            </span>
           </div>
         </div>
         {/* <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">

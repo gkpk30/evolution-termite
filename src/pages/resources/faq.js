@@ -1,5 +1,6 @@
 import React from "react";
 import Hero2 from "../../components/Hero2";
+import { Link } from "gatsby";
 
 const h1 = "Keep Pests Away... \n Permanently";
 const subHeader =
@@ -50,12 +51,12 @@ export default function faq() {
           <p className="mt-6 max-w-2xl text-base leading-7 text-gray-300">
             Have a different question and can’t find the answer you’re looking
             for? Reach out to our support team by{" "}
-            <a
-              href="#"
+            <Link
+              to="#"
               className="font-semibold text-indigo-400 hover:text-indigo-300"
             >
               sending us an email
-            </a>{" "}
+            </Link>{" "}
             and we’ll get back to you as soon as we can.
           </p>
           <div className="mt-20">
