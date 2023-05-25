@@ -37,9 +37,9 @@ export default function BenefitsMain() {
           >
             Get started
           </Link>
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          <Link to="#" className="text-sm font-semibold leading-6 text-white">
             Learn more <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
      
