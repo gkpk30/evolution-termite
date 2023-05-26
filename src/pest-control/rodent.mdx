@@ -1,12 +1,39 @@
 ---
-title: Rodent Control
+title: Rodent Removal
 slug: rats-mice-rodent-removal
 description: Pest Control and Rodent Protection
 heroH1: Pest Control Rodent Keeping Your Home Rodent-Free
 heroSubheader: Effective Prevention and Control Techniques for a Rodent-Free Environment
 ---
 
-# Rodent Removal
+
+export const faqs = [
+  {
+    "question": "What are the common signs of a rodent infestation?",
+    "answer": "Common signs of a rodent infestation include droppings, gnaw marks, greasy marks along walls or baseboards, nest materials, and unusual pet behavior."
+  },
+  {
+    "question": "How can I prevent rodents from entering my home?",
+    "answer": "To prevent rodents from entering your home, seal all entry points such as cracks, gaps, and openings in walls, windows, and doors. Keep the surroundings clean, remove potential food sources, and trim tree branches that can provide access to your home."
+  },
+  {
+    "question": "What should I do if I have a rodent problem?",
+    "answer": "If you have a rodent problem, it's important to take immediate action. Set up traps or use rodenticides cautiously, ensuring they are out of reach of children and pets. Seal any entry points and consider contacting a professional pest control service for assistance."
+  },
+  {
+    "question": "How can I make my yard less attractive to rodents?",
+    "answer": "To make your yard less attractive to rodents, keep it clean and free of clutter. Remove any potential nesting sites like piles of debris or wood. Store garbage in sealed containers, avoid leaving pet food outside, and regularly trim vegetation near your home."
+  },
+  {
+    "question": "Are there any natural methods to control rodents?",
+    "answer": "Yes, there are natural methods to control rodents. Some examples include using peppermint oil or cloves as a deterrent, placing mothballs in infested areas, or using ultrasonic devices. However, it's important to note that these methods may not be as effective as professional pest control techniques."
+  }
+]
+
+
+## Rodent Removal
+
+<h5>{props.pageContext.frontmatter.heroH1}</h5>
 
 We understand the frustration that comes with having rodents in your home or business. Not only are they unsightly, but they can also pose a health risk to you, your family, or your customers. At Evolution Termite, we specialize in rodent removal and <span class="text-gray-400">[prevention services](../prevention)</span> to ensure that your property remains pest-free.
 
@@ -30,4 +57,12 @@ At Evolution Termite, we pride ourselves on providing top-notch rodent removal a
 
 In conclusion, rodents can be a nuisance to any property owner, but with the help of Evolution Termite, you can rest assured that your property will remain pest-free. Our team of experts is dedicated to providing the best rodent removal and prevention services, and we take pride in helping our customers maintain a safe and healthy environment. Contact us today to schedule a consultation and see how we can help you eliminate your rodent problem.
 
-<Faq/>
+
+
+<FaqWhite faqs={faqs}/>
+
+export const description = "Hi I'm a variable called description"
+export const subheader = "Hi I'm a variable called subheader"
+
+<ArticleHeader description={description} heroH1='heroH1' heroSubheader={subheader}/>
+<Message/>

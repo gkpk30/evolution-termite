@@ -42,7 +42,7 @@ export default function Features() {
                 ))}
               </ul>
               <div className="mt-10 flex">
-                <Link to="/more/about" className="text-sm font-semibold leading-6 text-indigo-200">
+                <Link to="/protect-your-home" className="text-sm font-semibold leading-6 text-indigo-200">
                   Learn more about our plan <span aria-hidden="true">&rarr;</span>
                 </Link>
               </div>

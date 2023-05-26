@@ -12,7 +12,7 @@ export default function rodent() {
     <div>
       <div className="relative bg-gray-900">
         <div className="h-40 md:h-28 lg:h-40 xl:h-28"></div>
-        <div className="relative h-96  overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
+        <div className="relative h-96  overflow-hidden bg-indigo-600 md:absolute md:left-0 md:top-0 md:bottom-0 md:h-full md:w-1/3 lg:w-1/2">
           <StaticImage
             className="h-full w-full object-cover"
             // src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply"
@@ -67,10 +67,10 @@ export default function rodent() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-900 px-6 py-32 lg:px-8">
-      <div className="mx-auto max-w-3xl text-base leading-7 text-white">
-        <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">JavaScript for Beginners</h1>
+      <div className="bg-gray-300 px-6 py-32 lg:px-8">
+      <div className="mx-auto max-w-3xl text-base leading-7 text-black">
+        <p className="text-base font-semibold leading-7 text-white-600">Introducing</p>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl">JavaScript for Beginners</h1>
         <p className="mt-6 text-xl leading-8">
           Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
           aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
@@ -85,7 +85,7 @@ export default function rodent() {
           </p>
           <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gray-600" aria-hidden="true" />
               <span>
                 <strong className="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet
                 consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
@@ -93,14 +93,14 @@ export default function rodent() {
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gray-600" aria-hidden="true" />
               <span>
                 <strong className="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non
                 deserunt sunt. Qui irure qui lorem cupidatat commodo.
               </span>
             </li>
             <li className="flex gap-x-3">
-              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+              <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-gray-600" aria-hidden="true" />
               <span>
                 <strong className="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat
                 auctor pellentesque rhoncus. Et magna sit morbi lobortis.
@@ -119,7 +119,7 @@ export default function rodent() {
             mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
             ipsum eu a sed convallis diam.
           </p>
-          <figure className="mt-10 border-l border-indigo-600 pl-9">
+          <figure className="mt-10 border-l border-gray-600 pl-9">
             <blockquote className="font-semibold text-gray-900">
               <p>
                 “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac
