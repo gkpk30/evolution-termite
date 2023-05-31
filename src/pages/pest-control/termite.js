@@ -7,12 +7,14 @@ export default function termite() {
   return (
     <div className="relative bg-gray-900">
       <div className="h-40 md:h-28 lg:h-40 xl:h-28"></div>
-      <div className="relative h-96  overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
+      <div className="relative h-96  overflow-hidden bg-gray-900 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
         <StaticImage
           className="h-full w-full object-cover"
-          // src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply"
+          placeholder="blurred"
           src="../../images/featured/termitesswarm.jpeg"
           alt=""
+         
+
         />
         <svg
           viewBox="0 0 926 676"

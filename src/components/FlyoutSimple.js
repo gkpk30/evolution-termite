@@ -10,7 +10,7 @@ export default function FlyoutSimple({subMenuItems, name}) {
     
   return (
     <Popover className="relative">
-      <Popover.Button className="bg-gray-800/50 hover:bg-gray-700 pt-4 pb-6 px-6 inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-50">
+      <Popover.Button className="bg-gray-800/60 hover:bg-gray-700 pt-4 pb-6 px-6 inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-50">
         <span>{name}</span>
         <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
       </Popover.Button>
@@ -25,11 +25,13 @@ export default function FlyoutSimple({subMenuItems, name}) {
         leaveTo="opacity-0 translate-y-1"
       >
         <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-min -translate-x-1/2 px-4">
-          <div className="w-56 shrink rounded-xl bg-white p-4 text-sm font-semibold leading-6 text-gray-900 shadow-lg ring-1 ring-gray-900/5">
+          <div className="w-56 shrink rounded-xl bg-gray-100  p-4 text-sm font-semibold leading-6 text-gray-900 shadow-lg ring-1 ring-gray-900/5">
             {subMenuItems.map((item) => (
-              <Link key={item.name} to={item.href} className="block p-2 hover:text-indigo-600">
+              <div key={item.name} className="hover:bg-gray-200">
+              <Link  to={item.href} className="block p-2 hover:text-gray-600 ">
                 {item.name}
               </Link>
+              </div>
             
             ))}
           </div>

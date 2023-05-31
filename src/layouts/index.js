@@ -29,12 +29,12 @@ const shortcodes = { Faq, FaqWhite, Link, Message, ArticleHeader };
 //   p: MyParagraph,
 // };
 
-export default function index({ children }) {
+export default function index({ children, location }) {
   return (
     // <MDXProvider components={components}>
       <MDXProvider components={shortcodes}>
         <div>
-          <Navbar2 className="" />
+          <Navbar2 location = {location} className="" />
           <div className="bg-gray-300 ">{children}</div>
           <Footer />
         </div>

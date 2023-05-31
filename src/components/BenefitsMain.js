@@ -66,7 +66,7 @@ export default function BenefitsMain() {
             />
           </div>
           <div className="sm:basis-1/2 pt-4 text-white sm:grow self-center">
-            <h4 className="mb-4">Pest Elimination and Repairs</h4>
+            <h4 className="mb-4 text-gray-100">Pest Elimination and Repairs</h4>
             <h3 className="text-xl font-bold tracking-tight text-gray-100 sm:text-2xl mb-3">
               We offer repair services, pest control and preventative
               treatments.
@@ -86,8 +86,8 @@ export default function BenefitsMain() {
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
             />
           </div>
-          <div className="sm:basis-1/2 text-white sm:grow  self-center">
-            <h4 className="mb-4">Environmentally Friendly Solutions</h4>
+          <div className="sm:basis-1/2 pt-4 text-white sm:grow  self-center">
+            <h4 className="mb-4 text-gray-100">Environmentally Friendly Solutions</h4>
             <h3 className="text-xl font-bold tracking-tight text-gray-100 sm:text-2xl mb-3">
               Safer for your family and pets.
             </h3>
@@ -106,8 +106,8 @@ export default function BenefitsMain() {
               className="aspect-[16/9] w-full rounded-xl  bg-gray-900/5 object-cover shadow-lg"
             />
           </div>
-          <div className="sm:basis-1/2 text-white sm:grow  self-center">
-            <h4 className=" mb-4">We Guarantee your satisfaction</h4>
+          <div className="sm:basis-1/2 pt-4 text-white sm:grow  self-center">
+            <h4 className=" mb-4 text-gray-100">We Guarantee your satisfaction</h4>
             <h3 className="text-xl font-bold tracking-tight text-gray-100 sm:text-2xl mb-3">
               Home Protection Plan
             </h3>
