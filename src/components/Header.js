@@ -35,8 +35,8 @@ export default function Header({ h1, text }) {
           <circle cx={512} cy={512} r={512} fill="url(#8d958450-c69f-4251-94bc-4e091a323369)" fillOpacity="0.7" />
           <defs>
             <radialGradient id="8d958450-c69f-4251-94bc-4e091a323369">
-              <stop stopColor="#7775D6" />
-              <stop offset={1} stopColor="#E935C1" />
+              <stop stopColor="#47C0FC" />
+              <stop offset={1} stopColor="#261F11" />
             </radialGradient>
           </defs>
         </svg>

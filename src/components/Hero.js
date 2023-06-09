@@ -29,7 +29,7 @@ export default function Hero() {
               <path d="M.5 200V.5H200" fill="none" />
             </pattern>
           </defs>
-          <svg x="50%" y={-1} className="overflow-visible fill-gray-600/70">
+          <svg x="50%" y={-1} className="overflow-visible fill-gray-600/30">
             <path
               d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
               strokeWidth={0}
@@ -62,8 +62,8 @@ export default function Hero() {
                 y2="1091.63"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#9089FC" />
-                <stop offset={1} stopColor="#2e24e7" />
+                <stop stopColor="#47C0FC" />
+                <stop offset={1} stopColor="#261F11" />
               </linearGradient>
             </defs>
           </svg>
@@ -125,6 +125,7 @@ export default function Hero() {
                       src="../images/featured/rodent.jpg"
                       alt=""
                       className="aspect-[2/3] w-full rounded-xl rounded-bl-none bg-gray-900/5 object-cover shadow-lg"
+                      placeholder="blurred"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
@@ -136,6 +137,7 @@ export default function Hero() {
                       src="../images/featured/termitesswarm.jpeg"
                       alt=""
                       className="aspect-[2/3] w-full rounded-xl rounded-bl-none bg-gray-900/5 object-cover shadow-lg"
+                      placeholder="blurred"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
@@ -145,6 +147,7 @@ export default function Hero() {
                       src="../images/featured/repairs.jpg"
                       alt=""
                       className="aspect-[2/3] w-full rounded-xl rounded-bl-none bg-gray-900/5 object-cover shadow-lg"
+                      placeholder="blurred"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
@@ -156,6 +159,7 @@ export default function Hero() {
                       src="../images/featured/house.jpg"
                       alt=""
                       className="aspect-[2/3] w-full rounded-xl rounded-bl-none bg-gray-900/5 object-cover shadow-lg"
+                      placeholder="blurred"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
@@ -165,6 +169,7 @@ export default function Hero() {
                       src="../images/featured/family.jpg"
                       alt=""
                       className="aspect-[2/3] w-full rounded-xl rounded-bl-none bg-gray-900/5 object-cover shadow-lg"
+                      placeholder="blurred"
                     />
                     <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                   </div>

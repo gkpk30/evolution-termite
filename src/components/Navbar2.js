@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -35,7 +35,13 @@ const navigation = [
   { name: "More", href: "#", subMenu: more },
 ];
 
-export default function Navbar2() {
+export default function Navbar2({location}) {
+
+  useEffect(() => {
+    setMobileMenuOpen(false)
+  }, [location.pathname])
+  
+  console.log("path" ,location.pathname)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const data = useStaticQuery(graphql`query MyQuery {
     allMdx {
