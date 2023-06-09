@@ -31,7 +31,7 @@ export default function Features() {
                 We provide both commercial and residential pest control services.
               </p>
               <ul
-                role="list"
+                // role="list"
                 className="mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-white sm:grid-cols-2"
               >
                 {benefits.map((benefit) => (

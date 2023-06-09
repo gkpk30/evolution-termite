@@ -31,7 +31,7 @@ const resources = [
 const navigation = [
   { name: "Protect Your Home", href: "/protect-your-home" },
   { name: "Pest Control", href: "#", subMenu: pests },
-  // { name: "Pest Identifier", href: "#" },
+  { name: "Preparation", href: "/" },
   { name: "Resources", href: "#", subMenu: resources },
   { name: "More", href: "#", subMenu: more },
 ];

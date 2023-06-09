@@ -4,7 +4,7 @@ import {
   InformationCircleIcon,
 } from "@heroicons/react/20/solid";
 import Header from "../../components/Header";
-import Seo from "../../components/seo";
+import Seo from "../../components/Seo";
 
 const h1 = "Pest Control Safety.";
 const text =
@@ -41,7 +41,7 @@ export default function pestControlSafety() {
               common pests include ants, cockroaches, termites, rats, mice,
               squirrels, and raccoons.
             </p>
-            <ul role="list" className="mt-8 max-w-xl space-y-8 text-indigo-950">
+            <ul  className="mt-8 max-w-xl space-y-8 text-indigo-950">
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   className="mt-1 h-5 w-5 flex-none text-indigo-950"

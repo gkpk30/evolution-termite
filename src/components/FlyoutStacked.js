@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
 import { Link } from "gatsby";
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { BookmarkSquareIcon, CalendarDaysIcon, LifebuoyIcon } from '@heroicons/react/24/outline'
+import { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import {
+  BookmarkSquareIcon,
+  CalendarDaysIcon,
+  LifebuoyIcon,
+} from "@heroicons/react/24/outline";
 
 // const resources = [
 //   { name: 'Help center', description: 'Get all of your questions answered', href: '#', icon: LifebuoyIcon },
@@ -22,7 +26,7 @@ import { BookmarkSquareIcon, CalendarDaysIcon, LifebuoyIcon } from '@heroicons/r
 //   { id: 3, title: 'Improve your customer experience', href: '#', date: 'Feb 21, 2023', datetime: '2023-02-21' },
 // ]
 
-export default function FlyoutStacked({resources, recentPosts}) {
+export default function FlyoutStacked({ resources, recentPosts }) {
   return (
     <Popover className="relative">
       <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
@@ -43,12 +47,21 @@ export default function FlyoutStacked({resources, recentPosts}) {
           <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
             <div className="p-4">
               {resources.map((item) => (
-                <div key={item.name} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
+                <div
+                  key={item.name}
+                  className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50"
+                >
                   <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                    <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                    <item.icon
+                      className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+                      aria-hidden="true"
+                    />
                   </div>
                   <div>
-                    <Link to={item.href} className="font-semibold text-gray-900">
+                    <Link
+                      to={item.href}
+                      className="font-semibold text-gray-900"
+                    >
                       {item.name}
                       <span className="absolute inset-0" />
                     </Link>
@@ -59,18 +72,29 @@ export default function FlyoutStacked({resources, recentPosts}) {
             </div>
             <div className="bg-gray-50 p-8">
               <div className="flex justify-between">
-                <h3 className="text-sm font-semibold leading-6 text-gray-500">Recent posts</h3>
-                <Link to="#" className="text-sm font-semibold leading-6 text-indigo-600">
+                <h3 className="text-sm font-semibold leading-6 text-gray-500">
+                  Recent posts
+                </h3>
+                <Link
+                  to="#"
+                  className="text-sm font-semibold leading-6 text-indigo-600"
+                >
                   See all <span aria-hidden="true">&rarr;</span>
                 </Link>
               </div>
-              <ul role="list" className="mt-6 space-y-6">
+              <ul className="mt-6 space-y-6">
                 {recentPosts.map((post) => (
                   <li key={post.id} className="relative">
-                    <time dateTime={post.datetime} className="block text-xs leading-6 text-gray-600">
+                    <time
+                      dateTime={post.datetime}
+                      className="block text-xs leading-6 text-gray-600"
+                    >
                       {post.date}
                     </time>
-                    <Link to={post.href} className="block truncate text-sm font-semibold leading-6 text-gray-900">
+                    <Link
+                      to={post.href}
+                      className="block truncate text-sm font-semibold leading-6 text-gray-900"
+                    >
                       {post.title}
                       <span className="absolute inset-0" />
                     </Link>
@@ -82,5 +106,5 @@ export default function FlyoutStacked({resources, recentPosts}) {
         </Popover.Panel>
       </Transition>
     </Popover>
-  )
+  );
 }

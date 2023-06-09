@@ -4,6 +4,7 @@ import { MDXProvider } from "@mdx-js/react";
 import Footer from "../components/Footer";
 import Faq from "../components/Faq";
 import Navbar2 from "../components/Navbar2";
+import Navbar3 from "../components/Navbar3";
 import Message from "../components/Message";
 import ArticleHeader from "../components/ArticleHeader";
 import FaqWhite from "../components/FaqWhite";
@@ -34,7 +35,8 @@ export default function index({ children, location }) {
     // <MDXProvider components={components}>
       <MDXProvider components={shortcodes}>
         <div>
-          <Navbar2 location = {location} className="" />
+          <Navbar3 location = {location} className="" />
+          {/* <Navbar2 location = {location} className="" /> */}
           <div className="bg-gray-300 ">{children}</div>
           <Footer />
         </div>

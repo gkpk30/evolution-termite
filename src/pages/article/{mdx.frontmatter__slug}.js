@@ -1,5 +1,5 @@
 import React from "react";
-import Seo from "../../components/seo";
+import Seo from "../../components/Seo";
 import { graphql } from "gatsby";
 import Faq from "../../components/Faq";
 import ArticleHeader from "../../components/ArticleHeader";
