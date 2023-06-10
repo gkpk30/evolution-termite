@@ -4,7 +4,7 @@ import {
   InformationCircleIcon,
 } from "@heroicons/react/20/solid";
 import Header from "../../components/Header";
-import Seo from "../../components/Seo";
+import Seo from "../../components/seo";
 
 const h1 = "Pest Control Safety.";
 const text =

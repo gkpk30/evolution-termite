@@ -2,9 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  flags: {
-    DEV_SSR: true
-  },
+  // flags: {
+  //   DEV_SSR: true
+  // },
   siteMetadata: {
     title: `Evolution Termite`,
     siteUrl: `https://www.evolutiontermite.com`,

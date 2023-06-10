@@ -58,13 +58,13 @@ const callsToAction = [
 const company = [
   {
     name: "About us",
-    href: "#",
+    href: "/more/about",
     description:
       "Learn more about our company values and mission to empower others",
   },
   {
     name: "Reviews",
-    href: "#",
+    href: "/more/reviews",
     description:
       "Looking for you next career opportunity? See all of our open positions",
   },
@@ -79,12 +79,6 @@ const company = [
     href: "/resources/faq",
     description:
       "Looking for you next career opportunity? See all of our open positions",
-  },
-  {
-    name: "Support",
-    href: "#",
-    description:
-      "Get in touch with our dedicated support team or reach out on our community forums",
   },
   {
     name: "Blog",

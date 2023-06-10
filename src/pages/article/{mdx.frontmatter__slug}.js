@@ -7,6 +7,7 @@ import ArticleHeader from "../../components/ArticleHeader";
 function PestArticles({ data, children }) {
   const title = data.mdx.frontmatter.title;
   const description = data.mdx.frontmatter.description;
+  console.log("mdx  article file:" , data.mdx.frontmatter.title)
   return (
     <div className="relative">
       <div className="bg-gray-900">
