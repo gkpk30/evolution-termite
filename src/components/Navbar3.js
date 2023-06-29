@@ -81,14 +81,8 @@ const company = [
       "Looking for you next career opportunity? See all of our open positions",
   },
   {
-    name: "Support",
-    href: "#",
-    description:
-      "Get in touch with our dedicated support team or reach out on our community forums",
-  },
-  {
     name: "Blog",
-    href: "#",
+    href: "/blog",
     description:
       "Read our latest announcements and get perspectives from our team",
   },
@@ -299,7 +293,7 @@ export default function Navbar3({ location }) {
             Log in <span aria-hidden="true">&rarr;</span>
           </Link>
         </div> */}
-        <div className="hidden xl:block flex-row bg-yellow-300 py-2 px-6 xl:px-12 text-gray-900 font-bold text-center rounded-br-lg">
+        <div className="hidden xl:block flex-row bg-indigo-950 py-2 px-6 xl:px-12 text-gray-200 font-semibold text-center rounded-br-lg">
           <div className="text-sm">Call Now 24/7</div>
           <div className="text-lg">(818) 555-555</div>
         </div>

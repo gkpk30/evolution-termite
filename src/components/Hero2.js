@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 export default function Hero2({h1, subHeader, teaser}) {
   return (
     
-        <div className="relative">
+        <div className="relative bg-gray-900">
         <div className="mx-auto max-w-7xl">
           <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
             <svg

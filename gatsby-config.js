@@ -4,7 +4,9 @@
 module.exports = {
   siteMetadata: {
     title: `Evolution Termite`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.evolutiontermite.com`,
+    description: `Example project for the Gatsby Head API`,
+    image: `/logo3.png`,
   },
   plugins: [
     "gatsby-plugin-image",

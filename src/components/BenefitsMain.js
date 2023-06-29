@@ -4,12 +4,12 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function BenefitsMain() {
   return (
-    <div className="bg-transparent    ">
+    <div className="bg-gray-900    ">
       <div className="grid" >
       <StaticImage
       // className=" right-0 top-0 bottom-0 h-full w-full lg:w-1/2  object-cover opacity-30  mix-blend-overlay z-0  "
       // style={{ position: "absolute" }}
-      className="hidden sm:block object-cover mix-blend-overlay opacity-40 "
+      className="hidden sm:block object-cover mix-blend-normal opacity-[.08] "
       style={{
         gridArea: "1/1",
         // You can set a maximum height for the image, if you wish.

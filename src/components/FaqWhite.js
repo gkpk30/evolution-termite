@@ -19,7 +19,7 @@ export default function FaqWhite({faqs}) {
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
             {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.id} className="pt-6">
+              <Disclosure as="div" key={faq.question} className="pt-6">
                 {({ open }) => (
                   <>
                     <dt>
